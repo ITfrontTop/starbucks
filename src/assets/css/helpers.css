@@ -1,0 +1,9 @@
+.gradient {
+  background-image: linear-gradient(
+    to right,
+    var(--light-green),
+    var(--dark-green)
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

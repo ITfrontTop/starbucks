@@ -1,0 +1,48 @@
+@import 'helpers.css';
+@import 'header.css';
+
+:root {
+  --dark: #121517;
+  --text-light: #d9d9d9;
+  --light: #fff;
+  --dark-green: #237249;
+  --light-green: #35c66b;
+  --letter-spacing: -3%;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 1.6rem;
+
+  background-color: var(--dark);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+.container {
+  padding: 0 15rem;
+  max-width: 1280px;
+}
