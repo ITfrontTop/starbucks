@@ -1,5 +1,7 @@
+@import 'reset.css';
 @import 'helpers.css';
 @import 'header.css';
+@import 'btn.css';
 
 :root {
   --dark: #121517;

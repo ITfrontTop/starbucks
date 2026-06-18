@@ -1,0 +1,41 @@
+/* Обнуляем отступы и настраиваем блочную модель */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Убираем внутренние отступы */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Избавляемся от стандартных точек у списков */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Упрощаем работу с изображениями */
+/* img, svg {
+    display: block;
+    max-width: 100%;
+    height: auto;
+} */
+
+/* Приводим шрифты и фон у кнопок и полей ввода в норму */
+input,
+button,
+textarea,
+select {
+  background: none;
+  border: none;
+}
+
+/* Отключаем подчеркивание ссылок */
+a {
+  text-decoration: none;
+}
