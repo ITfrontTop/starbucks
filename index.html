@@ -18,25 +18,77 @@
 
   <body>
     <header class="header">
-      <div class="logo gradient">StarBucks</div>
-      <nav class="nav">
-        <a class="nav__link" href="#">Home</a>
-        <a class="nav__link" href="#">Select</a>
-        <a class="nav__link" href="#">Shop</a>
-      </nav>
+      <div class="container">
+        <div class="header__inner">
+          <div class="logo gradient">StarBucks</div>
+          <nav class="nav">
+            <a class="nav__link" href="#">Home</a>
+            <a class="nav__link" href="#">Select</a>
+            <a class="nav__link" href="#">Shop</a>
+          </nav>
+        </div>
+      </div>
     </header>
 
     <section class="hero">
-      <div class="hero__inner">
-        <div class="hero__info">
-          <h1 class="hero__info-title">New Cafe by StarBucks</h1>
-          <p class="hero__info-text">
-            Have time to buy the most harmonious drinks in the new Starbucks
-            coffee and don't forget about the discount!
-          </p>
-        </div>
-        <div class="hero__image">
-          <img class="hero__image-item" src="" alt="" />
+      <div class="container">
+        <div class="hero__inner">
+          <div class="hero__info">
+            <h1 class="hero__info-title title">
+              New Cafe<br />
+              by <span class="gradient">StarBucks</span>
+            </h1>
+            <p class="hero__info-text text_light">
+              Have time to buy the most harmonious drinks in the<br />
+              new Starbucks coffee and don't forget about the discount!
+            </p>
+            <div class="hero__btn-inner">
+              <button class="btn btn_gradient">Select a coffee</button>
+              <button class="btn btn_dark">More</button>
+            </div>
+            <div class="hero__statistics">
+              <div class="hero__statistics-item-inner">
+                <dl class="hero__statistics-item">
+                  <dt class="hero__statistics-item-title">
+                    9k<span class="gradient">+</span>
+                  </dt>
+                  <dd class="hero__statistics-item-text text_light">
+                    Premium<br />
+                    Users
+                  </dd>
+                </dl>
+              </div>
+              <div class="hero__statistics-item-inner">
+                <dl class="hero__statistics-item">
+                  <dt class="hero__statistics-item-title">
+                    2k<span class="gradient">+</span>
+                  </dt>
+                  <dd class="hero__statistics-item-text text_light">
+                    Happy<br />
+                    Customer
+                  </dd>
+                </dl>
+              </div>
+              <div class="hero__statistics-item-inner">
+                <dl class="hero__statistics-item">
+                  <dt class="hero__statistics-item-title">
+                    28<span class="gradient">+</span>
+                  </dt>
+                  <dd class="hero__statistics-item-text text_light">
+                    Awards<br />
+                    Winning
+                  </dd>
+                </dl>
+              </div>
+            </div>
+          </div>
+          <div class="hero__image">
+            <img
+              class="hero__image-item"
+              src="/src/assets/images/hero-image.png"
+              alt=""
+            />
+          </div>
         </div>
       </div>
     </section>

@@ -1,15 +1,23 @@
 @import 'reset.css';
 @import 'helpers.css';
-@import 'header.css';
 @import 'btn.css';
+@import 'header.css';
+@import 'hero.css';
 
 :root {
   --dark: #121517;
   --text-light: #d9d9d9;
+  --border-light: #dadada;
   --light: #fff;
   --dark-green: #237249;
   --light-green: #35c66b;
-  --letter-spacing: -3%;
+  --letter-spacing-s: -2%;
+  --letter-spacing-m: -3%;
+  --border-gradient: linear-gradient(
+    to bottom right,
+    var(--border-light),
+    var(--dark)
+  );
 }
 
 html {
@@ -29,22 +37,8 @@ body {
   background-color: var(--dark);
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
-}
-
 .container {
-  padding: 0 15rem;
+  padding: 0 1.5rem;
   max-width: 1280px;
+  margin: 0 auto;
 }

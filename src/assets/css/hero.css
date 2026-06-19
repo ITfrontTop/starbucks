@@ -1,0 +1,42 @@
+.hero__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: 3.2rem;
+}
+
+.hero__info {
+  display: flex;
+  flex-direction: column;
+  gap: 5.4rem;
+}
+
+.hero__info-text {
+  font-size: 2rem;
+  line-height: 1.6;
+  letter-spacing: var(--letter-spacing-s);
+  color: var(--text-light);
+}
+
+.hero__btn-inner {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.hero__statistics {
+  display: flex;
+  gap: 5.6rem;
+}
+
+.hero__statistics-item-inner {
+  min-width: 12.6rem;
+}
+
+.hero__statistics-item-title {
+  font-size: 6.2rem;
+  line-height: 1.1;
+  letter-spacing: var(--letter-spacing-m);
+  color: var(--light);
+}
