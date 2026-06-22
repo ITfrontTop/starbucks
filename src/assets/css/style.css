@@ -3,6 +3,8 @@
 @import 'btn.css';
 @import 'header.css';
 @import 'hero.css';
+@import 'advantages.css';
+@import 'label.css';
 
 :root {
   --dark: #121517;
