@@ -5,6 +5,7 @@
 @import 'hero.css';
 @import 'advantages.css';
 @import 'label.css';
+@import 'service.css';
 
 :root {
   --dark: #121517;
@@ -13,6 +14,8 @@
   --light: #fff;
   --dark-green: #237249;
   --light-green: #35c66b;
+  --dark-green-gradient: rgba(35, 114, 73, 0.55);
+  --light-green-gradient: rgba(53, 198, 107, 0.73);
   --letter-spacing-s: -2%;
   --letter-spacing-m: -3%;
   --border-gradient: linear-gradient(

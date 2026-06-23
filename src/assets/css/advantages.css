@@ -1,6 +1,38 @@
 .advantages__inner {
-  margin-top: 2rem;
-  padding: 11rem 0 0 11rem;
+  padding: 11rem 4rem 0 11rem;
+
+  position: relative;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 10rem;
+    left: 0;
+
+    width: 32.6rem;
+    height: 32.6rem;
+    background-image: linear-gradient(
+      to right,
+      var(--dark-green-gradient),
+      var(--light-green-gradient)
+    );
+    filter: blur(17.7rem);
+    z-index: -1;
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: -5rem;
+    right: 0;
+
+    width: 26.6rem;
+    height: 22.9rem;
+    background-color: var(--text-light);
+    opacity: 0.3;
+    filter: blur(12.4rem);
+    z-index: -1;
+  }
 }
 
 .advantages {
@@ -48,9 +80,6 @@
     position: absolute;
     width: 14.8rem;
     height: 14.8rem;
-
-    /* top: 50%;
-    left: 50%; */
 
     background-image: linear-gradient(
       to right,
