@@ -45,3 +45,7 @@
   letter-spacing: var(--letter-spacing-s);
   color: var(--dark);
 }
+
+.page_indent {
+  margin-bottom: 10rem;
+}

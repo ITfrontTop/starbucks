@@ -21,6 +21,29 @@
   );
 }
 
+.btn_gradient_icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.2rem;
+
+  padding: 2rem 7.9rem;
+
+  border-radius: 8rem;
+
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 1.4;
+  letter-spacing: var(--latter-spacing-s);
+  color: var(--light);
+
+  background-image: linear-gradient(
+    to right,
+    var(--light-green),
+    var(--dark-green)
+  );
+}
+
 .btn_dark {
   padding: 2rem 5.4rem;
 
@@ -31,7 +54,7 @@
   line-height: 1.4;
   color: var(--text-light);
   letter-spacing: var(--latter-spacing-m);
-  /* конструкція яка дозволяє робити градієнт border, без використання псевдоелементов */
+  /* конструкція яка дозволяє робити градієнт border, без використання after before */
   background:
     linear-gradient(var(--dark), var(--dark)) padding-box,
     var(--border-gradient) border-box;

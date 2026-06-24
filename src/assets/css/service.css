@@ -1,3 +1,94 @@
 .service__inner {
-  padding: 5rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20rem;
+}
+
+.service__image-box {
+  position: relative;
+
+  &::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+
+    background-color: var(--dark-green);
+
+    mask: url(/src/assets/images/service-image.png) no-repeat center / cover;
+    -webkit-mask: url(/src/assets/images/service-image.png) no-repeat center /
+      cover;
+
+    z-index: -1;
+    transform: translate(-4.5rem, 3.6rem);
+  }
+
+  /* decoration */
+  &::before {
+    content: '';
+    position: absolute;
+    width: 28.9rem;
+    height: 24.5rem;
+    bottom: 0;
+    left: 0;
+
+    background-image: linear-gradient(
+      to right,
+      var(--light-green),
+      var(--dark-green)
+    );
+
+    border-radius: 50%;
+
+    filter: blur(12.4rem);
+    z-index: -1;
+  }
+}
+
+/* розібратися з розміром */
+/* .service__image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+} */
+
+.service__info-title {
+  margin-bottom: 6rem;
+
+  position: relative;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: -25%;
+    right: 0;
+
+    width: 30.9rem;
+    height: 26.9rem;
+    background-image: linear-gradient(
+      to right,
+      var(--dark-green-gradient),
+      var(--light-green-gradient)
+    );
+    filter: blur(14.4rem);
+    z-index: -1;
+  }
+}
+
+.service__info-text {
+  margin-bottom: 6rem;
+}
+
+.service__video {
+  position: relative;
+}
+
+.service__video-btn {
+  position: absolute;
+  top: 50%;
+  right: -35%;
+  transform: translate(-50%, -50%);
 }
