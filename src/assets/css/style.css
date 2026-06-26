@@ -9,6 +9,7 @@
 @import 'service.css';
 @import 'product.css';
 @import 'slider.css';
+@import 'events.css';
 
 :root {
   --dark: #121517;
