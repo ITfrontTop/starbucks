@@ -1,0 +1,15 @@
+.move-up {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 8.4rem;
+  height: 8.4rem;
+  background:
+    linear-gradient(var(--dark), var(--dark)) padding-box,
+    var(--border-slider-primary-up) border-box;
+  border: 1px solid transparent;
+  border-radius: 3rem;
+
+  transform: rotate(-90deg);
+}

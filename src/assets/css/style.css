@@ -1,5 +1,6 @@
 @import 'reset.css';
 @import 'helpers.css';
+@import 'move-up.css';
 @import 'btn.css';
 @import 'header.css';
 @import 'hero.css';
@@ -7,6 +8,7 @@
 @import 'label.css';
 @import 'service.css';
 @import 'product.css';
+@import 'slider.css';
 
 :root {
   --dark: #121517;
@@ -31,10 +33,15 @@
     rgba(218, 218, 218, 0.07),
     var(--border-light)
   );
-  --border-slider-color: linear-gradient(
+  --border-slider-primary: linear-gradient(
     to right,
     var(--light-green),
     var(--dark-green)
+  );
+  --border-slider-primary-up: linear-gradient(
+    to right,
+    var(--dark-green),
+    var(--light-green)
   );
 }
 
