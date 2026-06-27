@@ -147,4 +147,9 @@
   transform: rotate(-18deg);
 }
 
-/*  */
+.hero__decoration {
+  position: absolute;
+  top: 17rem;
+  right: -18rem;
+  z-index: -3;
+}

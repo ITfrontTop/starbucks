@@ -3,6 +3,8 @@
   justify-content: space-between;
   align-items: center;
   gap: 20rem;
+
+  position: relative;
 }
 
 .service__image-box {
@@ -48,6 +50,11 @@
   }
 }
 
+.service__label {
+  top: 0;
+  left: 40rem;
+}
+
 /* розібратися з розміром */
 /* .service__image {
   display: block;
@@ -91,4 +98,17 @@
   top: 50%;
   right: -35%;
   transform: translate(-50%, -50%);
+}
+
+.service__decoration {
+  position: absolute;
+  top: 21rem;
+  right: -16rem;
+  z-index: -3;
+}
+
+.service__decoration-img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
