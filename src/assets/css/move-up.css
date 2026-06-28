@@ -3,6 +3,10 @@
   justify-content: center;
   align-items: center;
 
+  position: fixed;
+  right: 10rem;
+  bottom: 20rem;
+
   width: 8.4rem;
   height: 8.4rem;
   background:

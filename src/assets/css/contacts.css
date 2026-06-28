@@ -3,6 +3,20 @@
   justify-content: space-between;
 
   position: relative;
+
+  &::before {
+    content: '';
+    position: absolute;
+    bottom: -20rem;
+    right: 0;
+    width: 32.2rem;
+    height: 27.7rem;
+    background-color: var(--text-light);
+    opacity: 0.1;
+    filter: blur(15rem);
+
+    z-index: -1;
+  }
 }
 
 .contacts__info {

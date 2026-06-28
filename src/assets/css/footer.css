@@ -1,0 +1,71 @@
+.footer {
+  padding: 3.8rem 0;
+
+  background-color: var(--deep-dark);
+}
+
+.footer__nav {
+  display: flex;
+  gap: 10rem;
+}
+
+.footer__nav-list {
+  display: flex;
+  gap: 8rem;
+}
+
+.footer__nav-item-link {
+  font-size: 2rem;
+  letter-spacing: -1%;
+  color: var(--gray);
+  opacity: 0.4;
+}
+
+.footer__nav-item-title {
+  opacity: 1;
+}
+
+.footer__nav-items {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.footer__copy {
+  margin-top: 8rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__phone-item {
+  font-size: 2.6rem;
+  font-weight: 500;
+
+  line-height: 100%;
+}
+
+.footer__social {
+  position: relative;
+  z-index: 2;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    width: 8.8rem;
+    height: 7.3rem;
+
+    background-image: linear-gradient(
+      to right,
+      var(--dark-green-gradient),
+      var(--light-green-gradient)
+    );
+
+    filter: blur(3.9rem);
+    z-index: 1;
+  }
+}
