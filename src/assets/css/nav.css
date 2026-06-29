@@ -1,0 +1,36 @@
+.nav {
+  display: flex;
+  gap: 9.5rem;
+}
+
+.nav__link {
+  font-size: 1.9rem;
+  color: var(--text-light);
+}
+
+@media (max-width: 1024px) {
+  .nav {
+    position: absolute;
+    top: 12rem;
+    right: 0;
+
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+
+    color: var(--text-light);
+    letter-spacing: var(--latter-spacing-m);
+    /* конструкція яка дозволяє робити градієнт border, без використання after before */
+    background:
+      linear-gradient(var(--dark), var(--dark)) padding-box,
+      var(--border-gradient) border-box;
+    border: 1px solid transparent;
+    border-radius: 4rem;
+
+    z-index: 101;
+
+    .nav__link {
+      padding: 3rem 5rem;
+    }
+  }
+}

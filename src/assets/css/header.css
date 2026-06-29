@@ -1,9 +1,15 @@
+.header {
+  z-index: 100;
+}
+
 .header__inner {
   display: flex;
   align-items: center;
   gap: 9.4rem;
 
   padding: 4.8rem 0;
+
+  position: relative;
 }
 
 .logo {
@@ -13,12 +19,8 @@
   letter-spacing: var(--letter-spacing-m);
 }
 
-.nav {
-  display: flex;
-  gap: 9.5rem;
-}
-
-.nav__link {
-  font-size: 1.9rem;
-  color: var(--text-light);
+@media (max-width: 1024px) {
+  .header__inner {
+    justify-content: space-between;
+  }
 }
