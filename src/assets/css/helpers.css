@@ -9,7 +9,7 @@
 }
 
 .title {
-  font-size: 8rem;
+  font-size: clamp(4.8rem, 4.5714vw + 3.8857rem, 8rem);
   font-weight: 800;
   line-height: 1.1;
   letter-spacing: var(--letter-spacing-m);
@@ -17,7 +17,7 @@
 }
 
 .title_item_light {
-  font-size: 3.2rem;
+  font-size: clamp(2.1rem, 1.4667vw + 1.8067rem, 3.2rem);
   font-weight: 500;
   line-height: 1.6;
   letter-spacing: var(--letter-spacing-s);
@@ -25,7 +25,7 @@
 }
 
 .title_item_dark {
-  font-size: 3.2rem;
+  font-size: clamp(2.1rem, 1.4667vw + 1.8067rem, 3.2rem);
   font-weight: 500;
   line-height: 1.6;
   letter-spacing: var(--letter-spacing-s);
@@ -33,14 +33,14 @@
 }
 
 .text_light {
-  font-size: 2rem;
+  font-size: clamp(1.2rem, 1.0667vw + 0.9867rem, 2rem);
   line-height: 1.6;
   letter-spacing: var(--letter-spacing-s);
   color: var(--text-light);
 }
 
 .text_dark {
-  font-size: 2rem;
+  font-size: clamp(1.2rem, 1.0667vw + 0.9867rem, 2rem);
   line-height: 1.6;
   letter-spacing: var(--letter-spacing-s);
   color: var(--dark);

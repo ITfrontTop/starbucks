@@ -13,7 +13,8 @@
 }
 
 .logo {
-  font-size: 3.7rem;
+  /* font-size: 3.7rem; */
+  font-size: clamp(2.2rem, 2vw + 1.8rem, 3.7rem);
   font-weight: 800;
   line-height: 1.1;
   letter-spacing: var(--letter-spacing-m);

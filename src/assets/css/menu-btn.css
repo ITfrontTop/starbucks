@@ -27,6 +27,8 @@
     background-image: var(--border-slider-primary);
     bottom: 0;
     left: 0;
+
+    transition: transform 0.2s linear;
   }
 
   &::after {
@@ -45,10 +47,16 @@
     display: flex;
   }
 
-  /* доробить кнопку спростить */
-  /* .menu-btn.active {
+  .menu-btn.active .menu-btn__item {
+    background-image: none;
+
     &::after {
+      top: 50%;
       transform: rotate(45deg);
     }
-  } */
+    &::before {
+      top: 50%;
+      transform: rotate(-45deg);
+    }
+  }
 }
